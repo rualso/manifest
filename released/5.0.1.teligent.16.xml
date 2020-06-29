@@ -36,7 +36,7 @@
   <project name="couchbase-cli" revision="75a3d6495c480ea8f63ed1a14932b2a0fe7607f3" upstream="5.0.1" />
   <project name="couchdb" revision="3cf258de6f4b75ba732fbb6f9df7c9d658f2a2f0" />
   <project groups="notdefault,packaging" name="couchdbx-app" revision="a4b3b3e67f1374cb1c4ae89a9ab0d155556d6d93" />
-  <project groups="kv" name="couchstore" remote="couchteligent" revision="bd1fc37e8e9d88ca3fb96d0a983cdbb71a1b19ce" upstream="5.0.1.teligent.16" />
+  <project groups="kv" name="couchstore" remote="couchteligent" revision="bd1fc37e8e9d88ca3fb96d0a983cdbb71a1b19ce" upstream="teligent" />
   <project name="crypto" path="godeps/src/golang.org/x/crypto" remote="couchbasedeps" revision="f23ba3a5ee43012fcb4b92e1a2a405a92554f4f2" />
   <project name="cuckoofilter" path="godeps/src/github.com/seiflotfy/cuckoofilter" remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974" />
   <project name="cznic-b" path="godeps/src/github.com/cznic/b" remote="couchbasedeps" revision="b96e30f1b7bd34b0b9d8760798d67eca83d7f09e" />
