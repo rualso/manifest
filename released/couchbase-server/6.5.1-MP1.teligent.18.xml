@@ -4,8 +4,8 @@
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org" />
-  <remote fetch="git://github.com/teligent-ru/" name="couchteligent" review="" />
-  <remote fetch="git://github.com/rualso/" name="couchteligentrualso" review="" />
+  <remote fetch="git://github.com/teligent-ru/" name="couchteligent" />
+  <remote fetch="git://github.com/rualso/" name="couchteligentrualso" />
   
   <default remote="couchbase" revision="master" />
   
@@ -42,7 +42,7 @@
   <project groups="kv" name="couchbase-cli" revision="16221facdc82e4416cdd7832589e00e0450a97b3" />
   <project name="couchdb" revision="f47945baa733653fb0ab268d8f11c62104f6689f" />
   <project groups="notdefault,packaging" name="couchdbx-app" revision="6bf93c48217400824f0a68e6e2631af1a4f0d352" />
-  <project groups="kv" name="couchstore" remote="couchteligentrualso" revision="1671a4be4dc978014102d51d705becd2fe3dc8db" upstream="v6.5.1-teligent" />
+  <project groups="kv" name="couchstore" remote="couchteligentrualso" revision="9524e285e535f449f09781f776a6d09a9d3e95b6" upstream="v6.5.1-teligent" />
   <project groups="backup" name="crypto" path="godeps/src/golang.org/x/crypto" remote="couchbasedeps" revision="bd6f299fb381e4c3393d1c4b1f0b94f5e77650c8" />
   <project name="cuckoofilter" path="godeps/src/github.com/seiflotfy/cuckoofilter" remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974" />
   <project name="cznic-b" path="godeps/src/github.com/cznic/b" remote="couchbasedeps" revision="b96e30f1b7bd34b0b9d8760798d67eca83d7f09e" />
@@ -98,7 +98,7 @@
   <project name="json-iterator-go" path="godeps/src/github.com/json-iterator/go" remote="couchbasedeps" revision="f7279a603edee96fe7764d3de9c6ff8cf9970994" />
   <project name="jsonparser" path="godeps/src/github.com/buger/jsonparser" remote="couchbasedeps" revision="bf1c66bbce23153d89b23f8960071a680dbef54b" />
   <project groups="backup" name="jsonx" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" remote="couchbaselabs" revision="5b7baa20429a46a5543ee259664cc86502738cad" />
-  <project groups="kv" name="kv_engine"  remote="couchteligentrualso" revision="715d4c32c56346118f81c30b74b7f2dd65efe1e2" upstream="v6.5.1-teligent" />
+  <project groups="kv" name="kv_engine"  remote="couchteligentrualso" revision="56d60f7daf5b18235bfdf68d57ad8c50739fb14c" upstream="v6.5.1-teligent" />
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b" />
   <project groups="notdefault,enterprise" name="libcouchbase" revision="a77874d1379bd1896b8a507b9d70420fa918a5f8" />
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="6f820f8f90ce9482ffbd40bb15f9ea9932f4942d" />
