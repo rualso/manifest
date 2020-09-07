@@ -24,7 +24,7 @@
     <annotation name="RELEASE" value="mad-hatter" />
     <annotation name="PRODUCT" value="couchbase-server" />
     <annotation name="BLD_NUM" value="6300" />
-    <annotation name="VERSION" value="6.5.1.teligent.18" />
+    <annotation name="VERSION" value="6.5.1" />
   </project>
   <project groups="notdefault,enterprise,analytics" name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" revision="6938f549fde15cb7fb825420509ebf528cbb9925" />
   <project groups="notdefault,enterprise,analytics" name="cbas-core" path="analytics" remote="couchbase-priv" revision="d975bb8d3e189a81f13ac0fee77327184b23050b" />
